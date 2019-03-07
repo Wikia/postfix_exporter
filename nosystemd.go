@@ -3,12 +3,11 @@
 
 package main
 
-import(
+import (
 	"io"
 
 	"github.com/alecthomas/kingpin"
 )
-
 
 type Journal struct {
 	io.Closer
